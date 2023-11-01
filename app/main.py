@@ -8,7 +8,7 @@ def main():
     try:
         logger.info('starting pipeline')
 
-        pipeline = Pipeline(logger=logger, csv_path='test\SegaGames.csv')
+        pipeline = Pipeline(logger=logger, csv_path='app/test/SegaGames.csv')
         pipeline.run()
 
         logger.info('finishing pipeline')
